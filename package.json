@@ -10,6 +10,11 @@
   "license": "ISC",
   "bin": {
     "say-hi": "./cli.js",
-    "ask-me": "./prompt.js"
+    "ask-me": "./prompt.js",
+    "user-login": "./prompt2.js",
+    "user-create": "./prompt3.js"
+  },
+  "dependencies": {
+    "prompt": "1.0.0"
   }
 }
