@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "say-hi": "./cli.js"
+    "say-hi": "./cli.js",
+    "ask-me": "./prompt.js"
   }
 }
