@@ -1,5 +1,5 @@
 {
-  "name": "cli-tool",
+  "name": "create-release",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bin": {
-    "say-hi": "./cli.js",
-    "ask-me": "./prompt.js",
-    "user-login": "./prompt2.js",
-    "user-create": "./prompt3.js"
-  },
+  "bin": "./index.js",
   "dependencies": {
     "prompt": "1.0.0"
   }
