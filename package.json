@@ -9,12 +9,15 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "say-hi": "./cli.js",
-    "ask-me": "./prompt.js",
-    "user-login": "./prompt2.js",
-    "user-create": "./prompt3.js"
+    "write-file": "./cli.js"
   },
   "dependencies": {
     "prompt": "1.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "shelljs": "^0.8.3"
   }
 }
