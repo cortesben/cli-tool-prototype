@@ -11,9 +11,8 @@ VERSION_NUMBER=$(git describe)
 RELEASE_BRANCH="release-$VERSION_NUMBER"
 
 # Creating new release branch
+# Publish release branch
+# Publish tag
 git branch $RELEASE_BRANCH
 git push -u origin $RELEASE_BRANCH
-# git push origin $VERSION
-
-# git push origin -u "release_${VERSION}
-# git push origin master
+git push origin $RELEASE_BRANCH
