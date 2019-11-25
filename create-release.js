@@ -55,6 +55,7 @@ const run = async () => {
   VERSION.toLowerCase();
   MESSAGE.toLowerCase();
 
+  // run shell script with verions and commit message
   shell.exec(`./bump.sh '${VERSION}' '${MESSAGE}' `, (error, stdout, stderr) => {
     console.error(error);
   });
