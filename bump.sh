@@ -15,4 +15,4 @@ RELEASE_BRANCH="release-$VERSION_NUMBER"
 # Publish tag
 git branch $RELEASE_BRANCH
 git push -u origin $RELEASE_BRANCH
-git push origin $RELEASE_BRANCH
+git push origin $VERSION_NUMBER
